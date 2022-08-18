@@ -34,6 +34,7 @@ public:
 int main()
 {
     bank b;
+    
     b.deposit_ammount();
     b.withdraw_ammount();
     b.display();

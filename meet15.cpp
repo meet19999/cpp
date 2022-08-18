@@ -17,7 +17,7 @@ void skill::deposite(int amt)
     fees += amt;
 }
 int skill::showfees()
-{
+{   
     return fees;
 }
 int main()
@@ -316,4 +316,4 @@ int main()
     {
         cout << "not allowed";
     }
-}
+}                                                                        

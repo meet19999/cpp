@@ -63,7 +63,8 @@ int main()
         switch (ch)
         {
         case 1:
-            int d_amt;
+            int d_amt;int bank::show_balance()
+
             cout << "\n Enter deoposite ammount :";
             cin >> d_amt;
             b.deposit_ammount(d_amt);
